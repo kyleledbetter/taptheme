@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+  <name>tapthemejqmobile</name>
+  <version>1.0.1</version>
+  <creationDate>2/26/2012</creationDate>
+  <author>TapTheme</author>
+  <authorEmail>support@taptheme.com</authorEmail>
+  <authorUrl>http://taptheme.com</authorUrl>
+  <copyright>Copyright 2010 - 2012 Pixel Praise LLC. All rights reserved.</copyright>
+  <description>TPL_JQMOBILE_TAPTHEMEJQMOBILE_XML_DESCRIPTION</description>
+  <files>
+    <filename>component.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>helper.php</filename>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+	
+	<folder>css</folder>
+	<folder>html</folder>
+	<folder>images</folder>
+	<folder>jqm</folder>
+	<folder>js</folder>
+	<folder>language</folder>
+
+  </files>
+  
+  <languages folder="language">
+  	<language tag="en-GB">en-GB/en-GB.tpl_tapthemejqmobile.ini</language>
+  	<language tag="en-GB">en-GB/en-GB.tpl_tapthemejqmobile.sys.ini</language>
+  </languages>
+  
+  <positions>
+    <position>jqmobile-search</position>
+    <position>jqmobile-dropdown-top</position>
+    <position>jqmobile-dropdown-bottom</position>
+    <position>jqmobile-top1</position>
+    <position>jqmobile-cpanel</position>
+    <position>jqmobile-bottom1</position>
+    <position>jqmobile-footer</position>
+    <position>jqmobile-modalmenu</position>
+    <position>debug</position>
+  </positions>
+  
+  <config>
+  	<fields name="params">
+  		<fieldset name="advanced">
+		   <field name="jqmobile_theme" type="list" default="a" label="TPL_JQMOBILE_TEMPLATE_THEME" description="TPL_JQMOBILE_THEME_DESC">
+		      <option value="default">TPL_JQMOBILE_DEFAULT</option>
+		      <option value="a">TPL_JQMOBILE_A</option>
+		      <option value="b">TPL_JQMOBILE_B</option>
+		      <option value="c">TPL_JQMOBILE_C</option>
+		      <option value="d">TPL_JQMOBILE_D</option>
+		      <option value="e">TPL_JQMOBILE_E</option>
+		    </field>
+			<field name="jqmobile_active_menu_theme" type="list" default="a" label="TPL_JQMOBILE_ACTIVE_MENU_THEME" description="TPL_JQMOBILE_ACTIVE_MENU_THEME_DESC">
+			      <option value="default">TPL_JQMOBILE_DEFAULT</option>
+			      <option value="a">TPL_JQMOBILE_A</option>
+			      <option value="b">TPL_JQMOBILE_B</option>
+			      <option value="c">TPL_JQMOBILE_C</option>
+			      <option value="d">TPL_JQMOBILE_D</option>
+			      <option value="e">TPL_JQMOBILE_E</option>
+			    </field>
+		   
+		    <field name="defaultButton" type="radio" default="1" label="TPL_JQMOBILE_DEFAULT_TEMPLATE_OPTION" description="TPL_JQMOBILE_DEFAULT_DESC">
+		    	<option value="1">On</option>			
+		    	<option value="0">Off</option>
+		    </field>
+        <field name="home_button" type="radio" default="1" label="TPL_JQMOBILE_HOME_BUTTON" description="TPL_JQMOBILE_HOME_BUTTON_DESC">
+          <option value="1">On</option>     
+          <option value="0">Off</option>
+        </field>
+			<field name="fontColor" type="text" default="" label="TPL_JQMOBILE_FONT_COLOR" description="TPL_JQMOBILE_HEX_DESC" />
+			<field name="linkColor" type="text" default="" label="TPL_JQMOBILE_LINK_COLOR" description="TPL_JQMOBILE_HEX_DESC" />
+  		</fieldset>
+  	</fields>
+  </config>
+  
+</extension>

@@ -1,0 +1,100 @@
+/* Images */
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Lists */
+dd{
+	margin: 0;
+}
+
+/* Forms */
+input,select,textarea{
+	max-width: 100%;
+}
+
+/* Hiding Unnecessary Elements */
+ul.actions{
+	display: none;
+}
+
+/* Cpanel Image Title */
+#jqmobile-cpanel .image-title{
+	display: block;
+}
+
+/* Cpanel Grid Border */
+#jqmobile-cpanel.ui-navbar li .ui-btn:last-child {
+	border-right-width: 1px;
+}
+
+/* Image in Listview */
+ul.ui-listview .ui-li-thumb{
+	top: 10px;
+	left: 10px;
+}
+
+/*
+=====================================================
+Components
+*/
+
+/* K2 CSS */
+.com_k2 .itemContainer{
+	width: 100% !important;
+}
+.com_k2 div.itemView {
+	border-bottom: 0;
+}
+.com_k2 div.itemCommentsForm form input#submitCommentButton {
+	border: 0;
+	background: transparent;
+}
+
+/* Dark jQuery Mobile Theme */
+.com_k2 .ui-body-a div.catItemCategory span,
+.com_k2 .ui-body-a div.itemCategory span {
+	color: #ccc;
+}
+.com_k2 .ui-body-a div.catItemCategory,
+.com_k2 .ui-body-a div.itemCategory {
+	border-bottom: 1px dotted #333;
+}
+.com_k2 .ui-body-a div.itemToolbar,
+.com_k2 .ui-body-a div.itemNavigation {
+	border-top: 1px dotted #111;
+	border-bottom: 1px dotted #111;
+	background: #333;
+}
+.com_k2 .ui-body-a div.itemComments,
+.com_k2 .ui-body-a div#itemListLinks {
+	background: #333;
+	border: 1px solid #111;
+}
+.com_k2 .ui-body-a div.itemContentFooter {
+	border-top: 1px solid #111;
+}
+.com_k2 .ui-body-a div.itemCommentsForm p.itemCommentsFormNotes {
+	border-top: 1px solid #111;
+	padding-top: 4px;
+}
+
+/* Kunena CSS */
+#Kunena td{
+	display: list-item;
+	list-style: none;
+	background: transparent;
+}
+#Kunena .kblock,
+#Kunena .kcontainer,
+#Kunena td,
+#Kunena .kforum-pathway,
+#Kunena div.kblock div.khelprulescontent, 
+#Kunena div.kblock div.kfheadercontent,
+#Kunena .klist-actions-bottom,
+#Kunena .klist-actions,
+#Kunena .kforum-pathway-bottom{
+	background: transparent !important;
+	border: 0 !important;
+}
